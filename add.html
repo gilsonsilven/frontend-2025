@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Property</title>
+    <link rel="stylesheet" href="./CSS/styles.css">
+</head>
+<body onload=loadProperties()> 
+    <header>
+        <h1>Imobiliária Legal</h1>
+    </header>
+    <div id="add-property">
+        <h1>Cadastrar Imóvel</h1>
+        <form onsubmit="createProperty(event)">
+            <label for="">Tipo:</label>
+            <input type="text" name="type"><br><br>
+            <label for="">Endereço:</label>
+            <input type="text" name="address"><br><br>
+            <label for="">Quartos:</label>
+            <input type="text" name="rooms"><br><br>
+            <label for="">Tipo</label>
+            <input type="text" name="property">
+            <button type="submit">Cadastrar</button>
+        </form>
+        
+    </div>
+</body>
+<script src="./js/main.js"></script>
+</html>
